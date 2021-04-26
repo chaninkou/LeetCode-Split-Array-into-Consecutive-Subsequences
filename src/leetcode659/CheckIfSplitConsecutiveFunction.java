@@ -14,7 +14,7 @@ public class CheckIfSplitConsecutiveFunction {
             map.put(i, map.getOrDefault(i,0) + 1);
         }
         
-        // i is not index, it is the elements
+        // i is the elements
         for(int i : nums){
         	// If current number is 0, that means we visited
             if(map.get(i) == 0){
