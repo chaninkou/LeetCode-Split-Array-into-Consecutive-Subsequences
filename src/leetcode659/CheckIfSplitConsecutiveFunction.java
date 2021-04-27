@@ -16,7 +16,7 @@ public class CheckIfSplitConsecutiveFunction {
         
         // i is the elements
         for(int i : nums){
-        	// If current number is 0, that means we visited
+        	// 0 means visited
             if(map.get(i) == 0){
                 continue;
             } else if (mapChecker.getOrDefault(i, 0) > 0){ // This means we have a consecutive that is 4 or more
