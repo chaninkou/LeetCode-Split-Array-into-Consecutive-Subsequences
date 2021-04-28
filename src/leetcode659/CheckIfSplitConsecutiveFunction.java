@@ -6,7 +6,7 @@ public class CheckIfSplitConsecutiveFunction {
     public boolean isPossible(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
         
-        // This will keep track if there is more than 3 consecutive numbers
+        // This will keep track if there is more than 3 consecutive number
         HashMap<Integer, Integer> mapChecker = new HashMap<>();
         
         // Count all the numbers first
